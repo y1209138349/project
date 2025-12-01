@@ -1,0 +1,16 @@
+File,Folder,Rows,Cols,Size_MB,Columns_Sample,Date_Range
+ALOTT_Data_Dictionary_v1.0.csv,1.0.0,145,5,0.01,"['Admission', 'Every Row of this table is a hospital admission', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4']",
+ALOTT_Flowsheet_Types_v1.0.csv,1.0.0,34,4,0.0,"['Unnamed: 0', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3']",
+ALOTT_Data_Dictionary_v1.0-checkpoint.csv,.ipynb_checkpoints,145,5,0.01,"['Admission', 'Every Row of this table is a hospital admission', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4']",
+ALOTT_Flowsheet_Types_v1.0-checkpoint.csv,.ipynb_checkpoints,34,4,0.0,"['Unnamed: 0', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3']",
+medications.csv,emr-datasets,12698867,15,2144.92,"['aMRN', 'aCSN', 'MEDICATION', 'orderingOffsetDate', 'startOffsetDate', 'endOffsetDate', 'ORDERING_MODE', 'HV_DISCRETE_DOSE']",orderingOffsetDate: 2020-03-14 → 2020-06-22
+location.csv,emr-datasets,91295,5,4.82,"['aMRN', 'aCSN', 'startOffsetDate', 'endOffsetDate', 'LOS']",startOffsetDate: 2018-09-30 → 2020-10-09
+labs.csv,emr-datasets,10965866,13,1129.24,"['aMRN', 'Order_type', 'DESCRIPTION', 'PROC_ID', 'COMPONENT_NAME', 'ORDER_STATUS_C', 'order_status', 'orderingOffsetDate']",orderingOffsetDate: 2019-09-13 → 2020-01-10
+orders.csv,emr-datasets,5152806,12,474.13,"['aMRN', 'ordering_aCSN', 'resulting_aCSN', 'Order_type', 'DESCRIPTION', 'PROC_ID', 'ORDER_STATUS_C', 'order_status']",orderingOffsetDate: 2019-04-27 → 2019-12-22
+allergy.csv,emr-datasets,66539,4,2.74,"['aMRN', 'aCSN', 'Allergy', 'Allergy_Reaction']",
+icu.csv,emr-datasets,24607,5,1.32,"['aCSN', 'aMRN', 'startOffsetDate', 'endOffsetDate', 'LOS']",startOffsetDate: 2018-10-22 → 2020-10-24
+admission.csv,emr-datasets,29771,13,4.61,"['aCSN', 'aMRN', 'admsnOffset', 'dischOffset', 'Admission_Type', 'Admit_Source', 'LOS_Hours', 'REASON_VISIT_NAME']",
+social_hx.csv,emr-datasets,59232,24,3.98,"['aMRN', 'TOBACCO_USER_C', 'SMOKING_TOB_USE_C', 'smokingStartOffsetDate', 'smokingEndOffsetDate', 'CIGARETTES_YN', 'PIPES_YN', 'CIGARS_YN']",smokingStartOffsetDate: 1963-02-01 → 2020-03-18
+flowsheet.csv,emr-datasets,19900653,10,2225.55,"['aCSN', 'aMRN', 'FLO_MEAS_ID', 'flo_meas_name', 'disp_name', 'MEAS_VALUE', 'MEAS_COMMENT', 'recordedOffsetDate']",recordedOffsetDate: 2018-10-27 → 2018-11-27
+demographics.csv,emr-datasets,29970,8,1.9,"['aMRN', 'aCSN', 'Gender', 'Marital_Status', 'Patient_Race', 'Ethnicity', 'Preferred_Language', 'ABO_RH_Blood_Type']",
+admission-checkpoint.csv,.ipynb_checkpoints,29771,13,4.61,"['aCSN', 'aMRN', 'admsnOffset', 'dischOffset', 'Admission_Type', 'Admit_Source', 'LOS_Hours', 'REASON_VISIT_NAME']",
